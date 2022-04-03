@@ -16,6 +16,27 @@ body {
 
 main {
   background: linear-gradient(to bottom, rgba(0, 229, 255, 0.5), rgba(255, 255, 0, 0.5) 20%, rgba(255, 166, 0, 1) 70%, rgba(0, 0, 255, 0.541) 80%);
+  position: relative;
+}
+
+.sun {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  z-index: -1;
+  width: 35%;
+  // img {
+  // }
+}
+
+.moon {
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  z-index: -1;
+  width: 35%;
+  // img {
+  // }
 }
 
 a {
@@ -172,7 +193,7 @@ section {
 
 .obj-fit-img {
   img {
-    font-family: "object-fit:cover";
+    font-family: $font-family;
     object-fit: cover;
   }
 }
