@@ -1177,7 +1177,7 @@ section {
   margin: auto 0 auto 100px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .firstview__info {
     margin: auto 0 auto 40px;
   }

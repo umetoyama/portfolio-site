@@ -1,6 +1,5 @@
 .firstview {
   padding: 132px 5% 64px;
-  // background: $primary-color;
   overflow: hidden;
 
   @include xs {
@@ -9,41 +8,6 @@
 
   &-bg {
     position: relative;
-    // background: $primary-color;
-    // background-repeat: no-repeat, no-repeat;
-    // background-size: cover;
-
-    // &:before {
-    //   content: "";
-    //   position: absolute;
-    //   width: 500px;
-    //   height: 230px;
-    //   background: url("../images/bg-firstview-left_pc.png") no-repeat border-box left top/contain;
-    //   top: 0;
-    //   left: 0;
-
-    //   @include xs {
-    //     width: 240px;
-    //     height: 140px;
-    //     background: url("../images/bg-firstview-left_sp.png") no-repeat border-box left top/contain;
-    //   }
-    // }
-
-    // &:after {
-    //   content: "";
-    //   position: absolute;
-    //   width: 500px;
-    //   height: 220px;
-    //   background: url("../images/bg-firstview-right_pc.png") no-repeat border-box right bottom/contain;
-    //   bottom: 0;
-    //   right: 0;
-
-    //   @include xs {
-    //     width: 200px;
-    //     height: 100px;
-    //     background: url("../images/bg-firstview-right_sp.png") no-repeat border-box right bottom/contain;
-    //   }
-    // }
   }
 
   &__inner {
@@ -80,10 +44,14 @@
     justify-content: center;
     margin: auto 0 auto 100px;
 
-    @include md {
+    @include sm {
       margin: auto 0 auto 40px;
     }
 
+    // @include md {
+    //   margin: auto 0 auto 40px;
+    // }
+    
     @include xs {
       margin: 24px 0 0 0;
     }
